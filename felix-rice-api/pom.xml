@@ -16,6 +16,11 @@
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
         <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>${mybatis.starter.version}</version>
+        </dependency>
+        <dependency>
             <groupId>com.felix</groupId>
             <artifactId>felix-rice-component</artifactId>
             <version>${revision}</version>

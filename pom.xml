@@ -19,7 +19,8 @@
         <java.version>11</java.version>
         <revision>0.0.1-SNAPSHOT</revision>
         <mysql.version>8.0.30</mysql.version>
-        <druid.version>1.2.6</druid.version>
+        <druid.version>1.2.11</druid.version>
+        <mybatis.starter.version>2.2.2</mybatis.starter.version>
     </properties>
 
     <dependencyManagement>

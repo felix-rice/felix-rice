@@ -4,3 +4,10 @@ spring:
     username: root
     password: Root_123#@!
     driver-class-name: com.mysql.jdbc.Driver
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+    default-statement-timeout: 30
+    default-fetch-size: 100
+  mapper-locations: classpath*:mapper/*Mapper*.xml
