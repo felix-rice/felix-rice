@@ -8,4 +8,5 @@ import com.felix.rice.component.entity.User;
  */
 public interface UserService {
     User getUser(Long id);
+    void cacheUser(User user);
 }

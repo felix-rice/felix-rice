@@ -26,4 +26,9 @@ public class UserServiceImpl implements UserService {
         log.info("user is: {}", user.toString());
         return user;
     }
+
+    @Override
+    public void cacheUser(User user) {
+
+    }
 }
