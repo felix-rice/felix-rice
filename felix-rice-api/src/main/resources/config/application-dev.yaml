@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:mysql://172.28.195.72:3306/code?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+    username: root
+    password: Root_123#@!
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  redis:
+    host: 172.29.85.38
+    port: 6379
+    password: redis123
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 8
+        max-wait: -1ms
+        min-idle: 0
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+    default-statement-timeout: 30
+    default-fetch-size: 100
+  mapper-locations: classpath*:mapper/*Mapper*.xml
